@@ -1,10 +1,18 @@
-/* TOP: Calculator */
+/* TOP: Calculator Try 2 */
 
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blue;
+    width: 500px;
+}
 
-.top {
+#display {
     border-bottom: 50px;
     background-color: aqua;
- 
+    align-items: center;
 }
 
 .middle {
@@ -13,4 +21,22 @@
 
 .bottom {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn789 {
+    padding: 10px;
+}
+
+.btn456 {
+    padding: 10px;
+}
+
+.btn123 {
+    padding: 10px;
+}
+
+.btn00 {
+    padding: 10px;
 }
